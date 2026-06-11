@@ -1,11 +1,9 @@
 \# Turismo El Salvador
-
 Landing page interactiva desarrollada con HTML, CSS y JavaScript.
 
 
 
 \## Características
-
 \- Navbar fija
 
 \- Menú hamburguesa
@@ -23,7 +21,6 @@ Landing page interactiva desarrollada con HTML, CSS y JavaScript.
 
 
 \## Tecnologías
-
 \- HTML5
 
 \- CSS3
@@ -33,6 +30,5 @@ Landing page interactiva desarrollada con HTML, CSS y JavaScript.
 
 
 \## Autor
-
 Claudia Stefani Menjívar Lara
 
