@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#333;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+}
+
+.navbar ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+section{
+    padding:80px 20px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:200px;
+    border:1px solid #ccc;
+    padding:20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input,
+textarea,
+button{
+    padding:10px;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+#hamburguesa{
+    display:none;
+}
+
+@media(max-width:768px){
+
+    .navbar ul{
+        display:none;
+        flex-direction:column;
+    }
+
+    #hamburguesa{
+        display:block;
+    }
+
+}

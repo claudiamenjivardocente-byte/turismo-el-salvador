@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo El Salvador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>Turismo SV</h2>
+
+        <ul id="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        <button id="hamburguesa">☰</button>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <h1>Descubre la belleza de El Salvador</h1>
+        <p>Playas, volcanes y pueblos mágicos.</p>
+        <button>Reserva tu aventura</button>
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>
+            Somos una agencia turística dedicada a promover los mejores destinos
+            de El Salvador.
+        </p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Volcanes</h3>
+                <p>Recorridos guiados por volcanes.</p>
+            </div>
+
+            <div class="card">
+                <h3>Playas</h3>
+                <p>Experiencias únicas frente al mar.</p>
+            </div>
+
+            <div class="card">
+                <h3>Pueblos Turísticos</h3>
+                <p>Cultura, tradición e historia.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contacto">
+
+        <h2>Contáctanos</h2>
+
+        <form id="formulario">
+
+            <input type="text" id="nombre" placeholder="Nombre">
+
+            <input type="email" id="correo" placeholder="Correo">
+
+            <input type="tel" id="telefono" placeholder="Teléfono">
+
+            <textarea id="mensaje" placeholder="Mensaje"></textarea>
+
+            <button type="submit">
+                Enviar solicitud
+            </button>
+
+        </form>
+
+        <p id="respuesta"></p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Turismo El Salvador</p>
+        <p>Desarrollado por Claudia Stefani Menjívar Lara</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
