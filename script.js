@@ -33,7 +33,6 @@ formulario.addEventListener("submit", function(e){
 });
 
 
-
 const boton = document.getElementById("hamburguesa");
 const menu = document.getElementById("menu");
 
